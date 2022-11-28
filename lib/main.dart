@@ -1,4 +1,6 @@
+import 'package:demoner/views/bloc/predict_ner_bloc.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'injection_container.dart' as DI;
 import 'views/animated_splash_view.dart';
 import 'views/home_view.dart';
@@ -21,7 +23,11 @@ class MyApp extends StatelessWidget {
         ),
         home: AnimatedSplashView(),
         routes: <String, WidgetBuilder>{
-          '/HOME_SCREEN': (BuildContext context) => const HomeView(),
+          '/HOME_SCREEN': (BuildContext context) =>
+              BlocProvider<PredictNerBloc>.value(
+                value: DI.sl<PredictNerBloc>(),
+                child: HomeView(),
+              ),
         });
   }
 }

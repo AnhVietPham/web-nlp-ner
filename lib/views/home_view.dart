@@ -18,6 +18,12 @@ class HomeView extends StatefulWidget {
 class _HomeViewState extends State<HomeView> {
   late TextEditingController _controller;
 
+  PredictNerBloc get bloc =>
+      BlocProvider.of<PredictNerBloc>(context);
+
+  BuildContext get currentContext => context;
+
+
   @override
   void initState() {
     super.initState();
@@ -27,23 +33,22 @@ class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return BlocProvider<PredictNerBloc>(
-      create: (_) => sl<PredictNerBloc>(),
+      create: (BuildContext context) => bloc,
       child: Scaffold(
+        appBar: AppBar(title: const Text('NER TASK')),
         body: Column(
           children: [
             TextField(
               controller: _controller,
               onSubmitted: (String value) async {
-                sl<PredictNerBloc>().add(PredictNerInputTextEvent(value));
+                bloc.add(PredictNerInputTextEvent(value));
               },
             ),
             const SizedBox(
               height: 10,
             ),
             BlocBuilder<PredictNerBloc, PredictNerState>(
-                buildWhen: (previous, current) {
-              return current is PredictNerLoadingState;
-            }, builder: (context, state) {
+                builder: (context, state) {
               if (state is PredictNerLoadingState) {
                 return Text("Anh Viet pham" * 100);
               } else {
