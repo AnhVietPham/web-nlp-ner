@@ -78,15 +78,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -116,15 +116,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -154,15 +154,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -192,15 +192,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -230,15 +230,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -268,15 +268,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -306,15 +306,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -344,15 +344,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -382,15 +382,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -420,15 +420,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -458,15 +458,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -496,15 +496,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -534,15 +534,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -572,15 +572,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -610,15 +610,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -648,15 +648,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -686,15 +686,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -724,15 +724,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -762,15 +762,15 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
                 text: TextSpan(children: [
                   WidgetSpan(
                       child: Container(
-                        decoration: const BoxDecoration(
-                            color: Colors.transparent,
-                            borderRadius: BorderRadius.all(Radius.circular(4))),
-                        padding: const EdgeInsets.all(6),
-                        child: Text(
-                          resultEntity.token,
-                          style: const TextStyle(color: Colors.black),
-                        ),
-                      )),
+                    decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                        borderRadius: BorderRadius.all(Radius.circular(4))),
+                    padding: const EdgeInsets.all(6),
+                    child: Text(
+                      resultEntity.token,
+                      style: const TextStyle(color: Colors.black),
+                    ),
+                  )),
                   WidgetSpan(
                       child: Container(
                     decoration: const BoxDecoration(
@@ -808,11 +808,23 @@ class PredictNerBloc extends Bloc<PredictNerEvent, PredictNerState> {
   Stream<PredictNerState> _mapToPredictNerSuccessState(
       Either<Failure, ResultNerEntity> entity) async* {
     final List<WidgetSpan> widgetSpans = [];
+    final List<Widget> widgetSymptoms = [];
     yield entity.fold((l) => Error(), (data) {
       for (var element in data.listData) {
         widgetSpans.add(_mapToWidgetSpan(element));
       }
-      return PredictNerSuccessState(widgetSpans);
+      for (var element in data.symptoms) {
+        widgetSymptoms.add(Container(
+          decoration: const BoxDecoration(
+            color: ColorUtils.color_purple_300,
+            borderRadius: BorderRadius.all(Radius.circular(4.0))
+          ),
+          padding: const EdgeInsets.all(10),
+          margin: const EdgeInsets.all(8.0),
+          child: Text(element),
+        ));
+      }
+      return PredictNerSuccessState(widgetSpans, widgetSymptoms);
     });
   }
 }

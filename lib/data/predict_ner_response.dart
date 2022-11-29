@@ -17,15 +17,17 @@ class Result {
   Result({
     this.status,
     this.data,
+    this.symptoms
   });
 
   int? status;
   List<Data>? data;
+  List<String>? symptoms;
 
   factory Result.fromJson(Map<String, dynamic> json) => Result(
-        status: json["status"],
-        data: List<Data>.from(json["data"].map((x) => Data.fromJson(x))),
-      );
+      status: json["status"],
+      data: List<Data>.from(json["data"].map((x) => Data.fromJson(x))),
+      symptoms: List<String>.from(json['symptoms_list'].map((x) => x)));
 }
 
 class Data {

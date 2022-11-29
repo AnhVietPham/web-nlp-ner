@@ -26,10 +26,14 @@ class PredictNerRepositoryImpl extends  PredictNerRepository {
 
   ResultNerEntity _mapResultNerEntity(PredictNerResponse response){
     final List<ResultEntity> results = [];
+    final List<String> symptoms = [];
     response.result?.data?.forEach((element) {
       results.add(ResultEntity(element.token ?? "", element.label ?? ""));
     });
-    return ResultNerEntity(results);
+    response.result?.symptoms?.forEach((element) {
+      symptoms.add(element);
+    });
+    return ResultNerEntity(results, symptoms);
   }
 
 }

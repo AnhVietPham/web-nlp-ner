@@ -1,7 +1,8 @@
 class ResultNerEntity {
   final List<ResultEntity> listData;
+  final List<String> symptoms;
 
-  ResultNerEntity(this.listData);
+  ResultNerEntity(this.listData, this.symptoms);
 }
 
 class ResultEntity {

@@ -324,16 +324,44 @@ class _HomeViewState extends State<HomeView> {
               child: BlocBuilder<PredictNerBloc, PredictNerState>(
                   builder: (context, state) {
                 if (state is PredictNerSuccessState) {
-                  return RichText(
-                    text: TextSpan(
-                      children: state.widgetSpans,
-                    ),
+                  return Column(
+                    children: [
+                      RichText(
+                        text: TextSpan(
+                          children: state.widgetSpans,
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 10,
+                      ),
+                      Container(
+                        width: MediaQuery.of(context).size.width,
+                        margin: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.all(10.0),
+                        decoration: const BoxDecoration(
+                            color: ColorUtils.color_green_300,
+                            borderRadius: BorderRadius.all(Radius.circular(4.0))
+                        ),
+                        child: const Text(
+                          "Xuất hiện triệu chứng",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              fontSize: 16,
+                              color: Colors.black,
+                              fontWeight: FontWeight.bold
+                          ),
+                        ),
+                      ),
+                      Wrap(
+                        children: state.widgetSymptoms,
+                      )
+                    ],
                   );
                 } else {
                   return const SizedBox();
                 }
               }),
-            )
+            ),
           ],
         ),
       ),
