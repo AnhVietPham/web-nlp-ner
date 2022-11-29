@@ -43,6 +43,12 @@ class SplashViewState extends State<AnimatedSplashView>
   }
 
   @override
+  dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,

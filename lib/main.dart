@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
           '/HOME_SCREEN': (BuildContext context) =>
               BlocProvider<PredictNerBloc>.value(
                 value: DI.sl<PredictNerBloc>(),
-                child: HomeView(),
+                child: const HomeView(),
               ),
         });
   }
